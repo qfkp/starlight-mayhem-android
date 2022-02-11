@@ -1039,8 +1039,7 @@ class PreferencesSubstate extends MusicBeatSubstate
 						ClientPrefs.lowQuality = !ClientPrefs.lowQuality;
 
 					case 'Anti-Aliasing':
-						ClientPrefs.globalAntialiasing = !ClientPrefs.globalAntialiasing;
-						showCharacter.antialiasing = ClientPrefs.globalAntialiasing;
+						ClientPrefs.globalAntialiasing = !ClientPrefs.globalAntialiasing;						
 						for (item in grpOptions) {
 							item.antialiasing = ClientPrefs.globalAntialiasing;
 						}
