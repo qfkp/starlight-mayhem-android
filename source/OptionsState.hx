@@ -1012,9 +1012,6 @@ class PreferencesSubstate extends MusicBeatSubstate
 					spr.alpha = 0;
 				}
 			}
-			if(showCharacter != null) {
-				showCharacter.alpha = 0;
-			}
 			descText.alpha = 0;
 			close();
 			FlxG.sound.play(Paths.sound('cancelMenu'));
